@@ -20,7 +20,7 @@ class HabitDatabase{
       if(_myBox.get(todaysDateformatted())==null){
         todayshabbit = _myBox.get("CURRENT_HABIT_LIST");
         for(int i=0;i<todayshabbit.length;i++){
-        todayshabbit[i][1] = true;
+        todayshabbit[i][1] = false;
       }
       }
       else{
